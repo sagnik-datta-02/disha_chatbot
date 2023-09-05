@@ -1,0 +1,30 @@
+
+
+.chat-message {
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 80%; 
+  }
+  
+  .user {
+    background-color: #D6EAF8; 
+    align-self: flex-end; 
+  }
+  
+  .chatbot {
+    background-color: #E8F6F3; 
+    align-self: flex-start
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
